@@ -40,6 +40,7 @@ assertThrown(function () { pxToEm(16, true); }, function (err) { assert(err inst
 assertThrown(function () { pxToEm(16, 0); }, function (err) { assert(err instanceof TypeError); });
 assertThrown(function () { pxToEm(16, ''); }, function (err) { assert(err instanceof TypeError); });
 assertThrown(function () { pxToEm(16, {}); }, function (err) { assert(err instanceof TypeError); });
+assertThrown(function () { pxToEm(16, {nodeType: 1}); }, function (err) { assert(err instanceof TypeError); });
 assertThrown(function () { pxToEm(16, function () {}); }, function (err) { assert(err instanceof TypeError); });
 
 assert(pxToEm(16) === 1);
