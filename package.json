@@ -1,0 +1,15 @@
+{
+  "name": "px-to-em",
+  "description": "Convert a px value to an em value",
+  "version": "0.0.0",
+  "main": "pxToEm.mjs",
+  "browser": "pxToEm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "develop": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-shift-header": "^1.0.1"
+  }
+}
