@@ -5,9 +5,8 @@ determine the equivalent em.
 
 ## Usage
 
-If you use ES modules, import `pxToEm.mjs` if you copied the module, or import
-`px-to-em` if you use a build tool integrating with `package.json`.
-Alternatively, include `pxToEm.js` via a `<script>` tag.
+If you use ES modules, and if you use `package.json` then import `px-to-em`,
+otherwise import `pxToEm.mjs`.  Alternatively, include `pxToEm.js` in scope.
 
 Given this HTML:
 
