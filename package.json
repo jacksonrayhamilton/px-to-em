@@ -1,7 +1,7 @@
 {
   "name": "px-to-em",
   "description": "Convert a px value to an em value",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "pxToEm.mjs",
   "browser": "pxToEm.js",
   "scripts": {
