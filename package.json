@@ -3,7 +3,6 @@
   "description": "Convert a px value to an em value",
   "version": "1.0.0",
   "main": "pxToEm.mjs",
-  "browser": "pxToEm.js",
   "scripts": {
     "build": "rollup -c",
     "develop": "rollup -c -w"
